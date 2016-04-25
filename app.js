@@ -46,3 +46,7 @@ parseCode.controller('projectController', function($scope){
 	$scope.message = "this is the projects view";
 });
 
+$(".nav a").on("click", function(){
+   $(".nav").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
+});
