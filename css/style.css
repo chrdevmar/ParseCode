@@ -19,10 +19,22 @@
 }*/
 
 .jumbotron{
-	background-color: #ABE2F5;
+	background-color: #0C4A5E;
+	color: #9d9d95;
 }
 
 .panel-heading{
-	background-color: #393939;
+	background-color: #232323;
 	color: #9d9d95;
+	border-color: #393939;
+}
+
+.panel{
+	border-color: #393939;
+	border-width: 0px !important;
+}
+
+.panel-body{
+	background-color: #053140;
+	border-top-width: 0px !important;
 }
