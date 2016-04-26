@@ -14,15 +14,13 @@
 	text-decoration: none;
 }
 
-.jumbotron{
-	background-color: rgba(5,49,64,0.8);
+#bootstrap-overrides .jumbotron{
+	background-color: rgba(5,49,64,0.7);
 	color: #9d9d95;
 	opacity: 
+	padding: 10%;
 }
 
-.jumbotron p{
-	display: inline;
-}
 
 .panel-heading{
 	background-color: #232323;
@@ -36,7 +34,7 @@
 }
 
 .panel-body{
-	background-color: rgba(5,49,64,0.85);
+	background-color: rgba(5,49,64,0.9);
 /*	background-color: #0C4A5E;*/
 /*	border-top-width: 0px !important;*/
 	border-color: #232323 !important;
@@ -48,6 +46,7 @@
 
 body{
 	background-color: #9d9d95;
+	background-image: url("../media/gradient_bg.jpg")
 }
 
 .rating{
