@@ -22,9 +22,9 @@ parseCode.config(function($routeProvider) {
 		controller  : 'projectController'
 		});
 
-		$routeProvider.otherwise({
-        redirectTo: '/home'
-      });
+		// $routeProvider.otherwise({
+  //       redirectTo: '/home'
+  //     });
 });
 
 //home controller

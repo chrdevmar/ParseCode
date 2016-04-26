@@ -3,7 +3,7 @@
 }
 
 #bootstrap-overrides .fa{
-	color: white;
+	color: #9d9d95;
 	font-size: 40px;
 	position: relative;
 	padding-right: 15px;
@@ -14,27 +14,82 @@
 	text-decoration: none;
 }
 
-/*#main{
-	padding-top: 65px;
-}*/
-
 .jumbotron{
-	background-color: #0C4A5E;
+	background-color: rgba(5,49,64,0.8);
 	color: #9d9d95;
+	opacity: 
+}
+
+.jumbotron p{
+	display: inline;
 }
 
 .panel-heading{
 	background-color: #232323;
 	color: #9d9d95;
-	border-color: #393939;
+	border-color: #232323;
 }
 
 .panel{
-	border-color: #393939;
-	border-width: 0px !important;
+	border-color: #232323;
+/*	border-width: 0px !important;*/
 }
 
 .panel-body{
-	background-color: #053140;
-	border-top-width: 0px !important;
+	background-color: rgba(5,49,64,0.85);
+/*	background-color: #0C4A5E;*/
+/*	border-top-width: 0px !important;*/
+	border-color: #232323 !important;
+}
+
+#collapseOne.panel-collapse.collape.in{
+	border-width: 0px !important;
+}
+
+body{
+	background-color: #9d9d95;
+}
+
+.rating{
+	font-size: 15px;
+	display: inline;
+}
+
+.skill{
+	display: inline;
+	position: relative;
+	float: left;
+	min-width: 25%;
+}
+
+.panel-group{
+	width: 35%;
+	position: relative;
+	margin-top: 15px;
+}
+
+#bootstrap-overrides .fa-circle{
+	font-size: 15px;
+	padding-top: 0px;
+	padding-right: 5px;
+}
+
+#bootstrap-overrides .cssSkill{
+	color: #2daadd;
+}
+
+#bootstrap-overrides .jsSkill{
+	color: #f8dc3d;
+}
+
+#bootstrap-overrides .javaSkill{
+	color: #e0171b;
+}
+
+#bootstrap-overrides .cSharpSkill{
+	color: #9a69d5;
+}
+
+#bootstrap-overrides .htmlSkill{
+	color: #f06529;
 }
